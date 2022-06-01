@@ -3,8 +3,8 @@
     <div class="logo-image">
       <img src="../assets/images/construction_logo.png" alt="" />
     </div>
+      <i class="fas fa-angle-down"></i>
     <div class="header-menu">
-      <i class="fa-solid fa-angle-down"></i>
       <ul class="menu-list">
         <li v-for="(item, index) in menu" :key="index">{{ item.services }}</li>
       </ul>
@@ -48,7 +48,7 @@ header {
       width: 150px;
       height: 40px;
       border: 0;
-      color: gray;
+      color: #39454c;
       background-color: #fed23f;
     }
   }
